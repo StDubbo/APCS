@@ -20,10 +20,10 @@ public class RSP {
             return "Draw";
         }
 
-        if ( c.equals("Scissors") && u.equals("Rock") ||
+        if ( c.equals("Paper") && u.equals("Scissors") ||
              c.equals("Scissors") && u.equals("Rock") ||
              c.equals("Scissors") && u.equals("Rock") ) {
-                return "Player";
+
              } 
 
         return "Computer";
