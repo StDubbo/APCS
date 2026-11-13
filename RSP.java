@@ -22,7 +22,8 @@ public class RSP {
 
         if ( c.equals("Paper") && u.equals("Scissors") ||
              c.equals("Scissors") && u.equals("Rock") ||
-             c.equals("Scissors") && u.equals("Rock") ) {
+             c.equals("Rock") && u.equals("Paper") ) {
+                return "Player";
 
              } 
 
