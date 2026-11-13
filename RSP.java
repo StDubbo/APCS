@@ -23,7 +23,7 @@ public class RSP {
         if ( c.equals("Scissors") && u.equals("Rock") ||
              c.equals("Scissors") && u.equals("Rock") ||
              c.equals("Scissors") && u.equals("Rock") ) {
-
+                return "Player";
              } 
 
         return "Computer";
